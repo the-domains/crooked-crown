@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.3088077
 color:
   saturation: 0.3674111
-  lightness: 0.5958745
   brandStrength: 0.5085449
+  lightness: 0.5958745
   brandColors:
-    - '#E30F0E'
-    - '#120D0A'
-    - '#992A28'
-    - '#F7E8EB'
-    - '#EDABAD'
+    - '#000000'
+    - '#F7F6E0'
+    - '#2A2C27'
+    - '#A0A07E'
+    - '#42857E'
   rhythmicContrast: 0.1585061
-typography_spectrum: 0.3088077
+layout_spectrum: 1
 name: Crooked Crown
