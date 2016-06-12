@@ -4,23 +4,23 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
+typography_spectrum: 0.3882921
 color:
-  saturation: 0.3674111
+  saturation: 0.6815252
   brandStrength: 0.5085449
-  lightness: 0.5958745
+  lightness: 0.6965628
   brandColors:
     - '#0C0C0C'
     - '#E5E5D9'
     - '#EB1725'
     - '#424242'
     - '#B1B1B1'
-  rhythmicContrast: 0.1585061
-typography_spectrum: 0.3088077
-layout_spectrum: 1
+  rhythmicContrast: 0.5429646
+layout_spectrum: 0.5225564
 name: Crooked Crown
